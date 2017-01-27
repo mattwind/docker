@@ -30,6 +30,8 @@ Get all sorts of information on a specific container
 
 `docker stop <container>`
 
+`docker start --interactive <containter>`
+
 ### Remove container
 
 `docker rm <container>`
