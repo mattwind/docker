@@ -12,7 +12,7 @@ With docker there are images and containers. Here are some basic docker commands
 
 ### View Container Logs
 
-`docker logs <name>`
+`docker logs <container>`
 
 ### Bash Terminal
 
@@ -20,19 +20,19 @@ With docker there are images and containers. Here are some basic docker commands
 
 ### View container enviroment variables
 
-`docker inspect -f "{{ .Config.Env }}" <name>`
+`docker inspect -f "{{ .Config.Env }}" <container>`
 
 Get all sorts of information on a specific container
 
-`docker inspect <name>`
+`docker inspect <container>`
 
 ### Stop/Start containers
 
-`docker stop <name>`
+`docker stop <container>`
 
 ### Remove container
 
-`docker rm <name>`
+`docker rm <container>`
 
 ### Remove image
 
