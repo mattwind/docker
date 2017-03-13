@@ -1,0 +1,13 @@
+#!/bin/bash
+_term() {
+  echo "Caught SIGTERM signal!"
+  kill -TERM "$child" 2>/dev/null
+  echo "Killed?"
+}
+
+trap _term SIGTERM
+
+$APP_DIR/bin/websocketd --port=80 --staticdir=./html/ dotnet ./program/bin/Debug/netcoreapp1.1/publish/program.dll
+
+child=$!
+wait "$child"
