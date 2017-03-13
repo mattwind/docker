@@ -1,0 +1,3 @@
+[submodule "docker-csharp"]
+	path = docker-csharp
+	url = git@github.com:mattwind/docker-csharp.git
