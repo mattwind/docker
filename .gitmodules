@@ -1,3 +1,6 @@
 [submodule "docker-csharp"]
 	path = docker-csharp
 	url = git@github.com:mattwind/docker-csharp.git
+[submodule "dotnet-mysql"]
+	path = dotnet-mysql
+	url = git@github.com:mattwind/dotnet-mysql.git
