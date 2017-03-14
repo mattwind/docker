@@ -40,10 +40,12 @@ Get all sorts of information on a specific container
 
 `docker rmi <image>`
 
-### GIT checkout submodule
+# GIT Commands
+
+## Checkout submodule
 
 `git submodule update --init`
 
-### GIT update submodule
+## Update submodule
 
 `git submodule foreach git pull origin master`
