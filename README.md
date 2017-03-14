@@ -42,10 +42,10 @@ Get all sorts of information on a specific container
 
 # GIT Commands
 
-## Checkout submodule
+### Checkout submodule
 
 `git submodule update --init`
 
-## Update submodule
+### Update submodule
 
 `git submodule foreach git pull origin master`
